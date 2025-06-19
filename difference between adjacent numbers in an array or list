@@ -1,0 +1,6 @@
+b=list(map(int,input().split()))
+d=[]
+s=0
+for i in range(len(b)-1):
+        d.append(abs(b[i]-b[i+1]))
+print(sum(d))
